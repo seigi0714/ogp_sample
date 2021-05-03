@@ -17,6 +17,18 @@
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
   <meta name="description" content="A new Flutter project.">
 
+　<meta property="og:title" content="OPGサンプル">
+　<meta property="og:image" content="https://res.cloudinary.com/dz68snhp6/image/upload/c_scale,w_1600,h_800/c_fit,w_1200,h_400,l_text:Sawarabi%20Gothic_100_style_bold_align_center:たったこれだけ！？/v1620095546/ogp-background_ffibhc.jpg">
+　<meta property="og:description" content="【共同勉強会】Firebase Hosting + CloudFunctionsを用いてSPAでのOGP対応">
+　<meta property="og:url" content="https://opg-sample.web.app/">
+　<meta property="og:type" content="article">
+　<meta property="og:site_name" content="OGP-sample">
+　<meta name="twitter:site" content="OPGサンプル">
+　<meta name="twitter:card" content="summary_large_image">
+　<meta name="twitter:title" content="OPGサンプル">
+　<meta name="twitter:image" content="https://res.cloudinary.com/dz68snhp6/image/upload/c_scale,w_1600,h_800/c_fit,w_1200,h_400,l_text:Sawarabi%20Gothic_100_style_bold_align_center:たったこれだけ！？/v1620095546/ogp-background_ffibhc.jpg">
+　<meta name="twitter:description" content="【共同勉強会】Firebase Hosting + CloudFunctionsを用いてSPAでのOGP対応">
+
   <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
@@ -40,6 +52,20 @@
       });
     }
   </script>
+  <script src="main.dart.js" type="application/javascript"></script>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+       https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-functions.js"></script>
+
+  <script src="firebase_config.js" type="application/javascript"></script>
+  <script>
+  　　// Initialize Firebase
+  　　firebase.initializeApp(firebaseConfig);
+　</script>
   <script src="main.dart.js" type="application/javascript"></script>
 </body>
 </html>
